@@ -34,3 +34,34 @@ p {
   overflow-x: hidden;
   padding: 10px;
 }
+body {
+  background-color: #f9f9f9;
+  font-family: arial, sans-serif;
+  color: #333;
+}
+
+header {
+  background-color: #007bff;
+  color: white;
+  padding: 15px;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+aside {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-left: 2px solid #ccc;
+}
+
+article {
+  background-color: white;
+  padding: 20px;
+  border-right: 2px solid #ccc;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
