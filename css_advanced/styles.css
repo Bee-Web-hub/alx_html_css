@@ -100,4 +100,59 @@ header nav ul li a {
   border-radius: 4px;
   cursor: pointer;
 }
->>>>>>> ce52b20d79b2cee88f534a0af5ed6dd451b39ecd
+/* Reusable section styling */
+.section {
+  padding: 80px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 60px;
+  color: #1a1a1a;
+}
+
+/* Video grid layout */
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Individual video card */
+.video-card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s;
+}
+
+.video-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Embedded video */
+.video-card iframe {
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+}
+
+/* Video title */
+.video-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 15px;
+  color: #333;
+}
+
+/* Video description */
+.video-desc {
+  font-size: 1rem;
+  color: #666;
+  margin-top: 8px;
+}
