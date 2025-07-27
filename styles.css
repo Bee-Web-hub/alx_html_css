@@ -26,20 +26,10 @@ header {
   padding: 20px 0;
 }
 
-header h1 {
+.logo {
   font-size: 24px;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #333;
   font-weight: bold;
+  color: #333;
 }
 
 header .container {
@@ -48,24 +38,74 @@ header .container {
   align-items: center;
 }
 
-/* Hero */
-#hero {
-  background-color: #e9f5ff;
-  text-align: center;
-  padding: 80px 20px;
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
 }
 
-#hero h2 {
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Hero Section with Image */
+.hero {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-height: 450px;
+  object-fit: cover;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.hero-content h2 {
   font-size: 36px;
   margin-bottom: 15px;
 }
 
-#hero p {
+.hero-content p {
   font-size: 18px;
   margin-bottom: 25px;
 }
 
-/* About */
+/* Buttons */
+.btn,
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover,
+button:hover {
+  background-color: #0056b3;
+}
+
+/* About Section */
 #about {
   background-color: #fafafa;
 }
@@ -75,7 +115,7 @@ header .container {
   margin-bottom: 10px;
 }
 
-/* Membership */
+/* Membership Section */
 #membership {
   background-color: #f0fff4;
   text-align: center;
@@ -86,7 +126,7 @@ header .container {
   margin-bottom: 15px;
 }
 
-/* FAQ */
+/* FAQ Section */
 #faq .faq-item {
   margin-bottom: 20px;
 }
@@ -101,7 +141,7 @@ header .container {
   margin-bottom: 8px;
 }
 
-/* Contact */
+/* Contact Section */
 #contact form {
   display: flex;
   flex-direction: column;
@@ -128,25 +168,6 @@ header .container {
 
 #contact button {
   margin-top: 15px;
-}
-
-/* Buttons */
-.btn,
-button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #007bff;
-  border: none;
-  color: white;
-  font-weight: bold;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.btn:hover,
-button:hover {
-  background-color: #0056b3;
 }
 
 /* Footer */
