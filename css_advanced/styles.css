@@ -198,3 +198,52 @@ header nav ul li a {
 .membership-btn:hover {
   background-color: #e14b45;
 }
+
+/* Reusable section styling */
+.section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+/* Section title */
+.section-title {
+  font-size: 2.5rem;
+  color: #1a1a1a;
+  margin-bottom: 40px;
+}
+
+/* FAQ section background */
+.faq-section {
+  background-color: #f3f4f6;
+}
+
+/* FAQ list container */
+.faq-list {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* Each FAQ item */
+.faq-item {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* Question */
+.faq-question {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+/* Answer */
+.faq-answer {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
